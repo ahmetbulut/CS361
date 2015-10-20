@@ -1,3 +1,5 @@
+__author__ = 'ahmetbulut'
+
 import feedparser
 import re
 
