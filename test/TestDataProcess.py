@@ -6,7 +6,7 @@ import source.dataprocess as DP
 class MyTestCase(unittest.TestCase):
 
     def testDataProcess(self):
-        self.assertEqual(DP.getwords("<body></body>"),[])
+        self.assertEqual(DP.getwords("<html></html>"),[])
 
 if __name__ == '__main__':
     unittest.main()
