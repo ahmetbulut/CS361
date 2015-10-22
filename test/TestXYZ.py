@@ -8,6 +8,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(False, False)
         self.assertEqual(True, False)
         self.assertEqual(True, True)
+        self.assertEqual(False, True)
 
 
 if __name__ == '__main__':
