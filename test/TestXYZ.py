@@ -10,6 +10,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(True, True)
         self.assertEqual(False, True)
 
+        self.assertGreater(4,5)
+
 
 if __name__ == '__main__':
     unittest.main()
