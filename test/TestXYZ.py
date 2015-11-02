@@ -5,10 +5,8 @@ import unittest
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        self.assertEqual(False, False)
-        self.assertEqual(True, False)
-        self.assertEqual(True, True)
-        self.assertEqual(False, True)
+        # adding a single test case.
+        self.assertGreaterEqual(14,15)
 
         self.assertGreater(4,5)
 
